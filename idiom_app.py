@@ -211,8 +211,8 @@ if st.button("🔎 Search", use_container_width=True):
         
         if len(results) > 0:
             st.success(f"Found {len(results[0])} idiom(s):")
-            MatchedIdiom = results[0]
-            MatchedIdiomTone = results[1]
+            MatchedIdiom = results[0].reset_index(drop=True)
+            MatchedIdiomTone = results[1].reset_index(drop=True)
             # Display results in a nice format
             for i in range(len(MatchedIdiom)):
                 st.write(f"**{i+1}.** {MatchedIdiom[i]}  {MatchedIdiomTone[i]}")
