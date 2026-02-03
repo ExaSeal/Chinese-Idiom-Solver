@@ -125,25 +125,25 @@ with col1:
     inner_col1, inner_col2, inner_col3, inner_col4 = st.columns(4)
     with inner_col1:
         InputChar1 = st.text_input(
-        "",
+        "1st Character",
         value="",
         key="Char1Py",
     )
     with inner_col2:
         InputChar2 = st.text_input(
-        "",
+        "2nd Character",
         value="",
         key="Char2Py",
     )
     with inner_col3:
         InputChar3 = st.text_input(
-        "",
+        "3rd Character",
         value="",
         key="Char3Py",
     )
     with inner_col4:
         InputChar4 = st.text_input(
-        "",
+        "4th Character",
         value="",
         key="Char4Py",
     )
@@ -163,25 +163,25 @@ with col3:
     inner_col1, inner_col2, inner_col3, inner_col4 = st.columns(4)
     with inner_col1:
         InputChar1Tone = st.text_input(
-        "",
+        "1st Character",
         value="",
         key="Char1Tone",
     )
     with inner_col2:
         InputChar2Tone = st.text_input(
-        "",
+        "2nd Character",
         value="",
         key="Char2Tone",
     )
     with inner_col3:
         InputChar3Tone = st.text_input(
-        "",
+        "3rd Character",
         value="",
         key="Char3Tone",
     )
     with inner_col4:
         InputChar4Tone = st.text_input(
-        "",
+        "4th Character",
         value="",
         key="Char4Tone",
     )
