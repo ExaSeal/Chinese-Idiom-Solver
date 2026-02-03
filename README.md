@@ -7,8 +7,7 @@ A Streamlit-based interactive application for searching and discovering Chinese 
 - **Pinyin Pattern Search**: Search idioms by entering known initials, finals, or full pinyin for each character position
 - **Phonetic Filtering**: Exclude specific initials and finals from search results
 - **Tone Matching**: Filter idioms by known tones (1st, 2nd, 3rd, 4th) or exclude certain tones
-- **Exclusion Support**: Use `*` prefix to exclude patterns instead of matching them
-- **Fast Results**: Returns up to 20 matching idioms instantly
+- **Exclusion Support**: Use `*` prefix to exclude tones or phonetics at a character position instead of matching them
 
 ## Installation
 
