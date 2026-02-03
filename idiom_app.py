@@ -193,7 +193,7 @@ with col4:
         "Exclude tones",
         value="",
         key="exclude_tones",
-        help="Tones to exclude. Use 1,2,3,4. _ for no exclusion."
+        help="Tones to exclude. Use 1_2_3_4, separate by underscore."
     )
 
 # Search button
