@@ -1,11 +1,11 @@
 # 🔍 Chinese Idiom Solver
 
-A Streamlit-based interactive application for searching and discovering Chinese idioms (四字成语) based on pinyin patterns, phonetics, and tones in a 'wordle' like game, but Chinese!.
+A Streamlit-based interactive application for searching and discovering Chinese idioms (四字成语) based on phonetics and tones in a 'wordle' like game, but Chinese!.
 
 ## Features
 
 - **Pinyin Pattern Search**: Search idioms by entering known initials, finals, or full pinyin for each character position
-- **Phonetic Filtering**: Exclude specific initials and finals from search results
+- **Phonetic Filtering**: Exclude specific initials and finals from search results, instead of simple letter exclusion
 - **Tone Matching**: Filter idioms by known tones (1st, 2nd, 3rd, 4th) or exclude certain tones
 - **Exclusion Support**: Use `*` prefix to exclude tones or phonetics at a character position instead of matching them
 
@@ -57,7 +57,6 @@ The app will open in your browser at `http://localhost:8501`
 ## Project Structure
 
 - `idiom_app.py` - Main Streamlit application
-- `IdiomGuesser.ipynb` - Jupyter notebook with development notes
 - `chinese-idioms-12976.db` - SQLite database containing idiom data
 
 ## Database
